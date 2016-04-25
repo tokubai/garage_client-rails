@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/TakatoshiMaeda/garage_client-rails"
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org/"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
