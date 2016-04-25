@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can use only to `require 'garage_clent/rails'` or `gem 'garage_client-rails'` into Gemfile
 
 ## Development
 
