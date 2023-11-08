@@ -1,4 +1,4 @@
-require 'active_support/per_thread_registry'
+require 'active_support/core_ext/module/attribute_accessors_per_thread'
 
 module GarageClient::Rails
   class RuntimeRegistry
