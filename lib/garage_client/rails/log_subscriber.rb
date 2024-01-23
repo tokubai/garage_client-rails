@@ -24,10 +24,10 @@ module GarageClient::Rails
 
       payload = event.payload
 
-      name   = color("GarageClient (#{event.duration.round(1)}ms)", GREEN, true)
-      method = color(payload[:method].to_s.upcase, WHITE, true)
-      url    = color(payload[:url], WHITE, true)
-      body   = (payload[:body].nil? ? nil : color(payload[:body], WHITE, false))
+      name   = color("GarageClient (#{event.duration.round(1)}ms)", :green, bold: true)
+      method = color(payload[:method].to_s.upcase, :white, bold: true)
+      url    = color(payload[:url], :white, bold: true)
+      body   = (payload[:body].nil? ? nil : color(payload[:body], :white, bold: false))
 
       message = ""
       message << "  #{name} #{method} #{url}"
